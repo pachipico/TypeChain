@@ -1,19 +1,24 @@
 {
-  "name": "typechain",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pachipico/TypeChain.git"
-  },
-  "author": "JHS",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pachipico/TypeChain/issues"
-  },
-  "homepage": "https://github.com/pachipico/TypeChain#readme"
+	"name": "typechain",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsc-watch --onSuccess \" node dist/index.js\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pachipico/TypeChain.git"
+	},
+	"author": "JHS",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pachipico/TypeChain/issues"
+	},
+	"homepage": "https://github.com/pachipico/TypeChain#readme",
+	"dependencies": {
+		"crypto-js": "^4.0.0",
+		"tsc-watch": "^4.4.0"
+	}
 }
